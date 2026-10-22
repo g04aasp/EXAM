@@ -1,0 +1,12 @@
+name: KP2 Exam Demo
+on: [push]
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Проверка окружения
+        run: |
+          echo "=== Запуск проверки для квалификации KP2 ==="
+          echo "Git и GitHub полностью готовы!"
+          echo "=== Пайплайн успешно выполнен! ==="
